@@ -1,0 +1,11 @@
+创建虚拟环境：  python -m venv myenv（名字，可替换）
+激活虚拟环境：  myenv\Scripts\activate
+
+ 清华镜像永久配置：  pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple  
+检查是否生效：pip config list
+
+各种库的安装：pip install torch							pip install tensorflow
+			 pip install numpy							pip install pandas
+			 pip install scipy							pip install matplotlib
+			 pip install scikit-learn
+         
